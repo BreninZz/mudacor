@@ -14,3 +14,7 @@ document.addEventListener('keydown', function(event) {
             break;
     }
 });
+
+document.addEventListener('keyup', function(event) {
+    document.body.style.backgroundColor = 'white';
+});
